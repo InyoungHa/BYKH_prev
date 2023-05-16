@@ -12,4 +12,10 @@ public class SignController {
 	public String signMain() {
 		return "content/sign/signMain";
 	}
+	
+	//결제문서 작성 페이지로 이동
+	@GetMapping("/signWriteForm")
+	public String signWriteForm() {
+		return "content/sign/sign_write_form";
+	}
 }
