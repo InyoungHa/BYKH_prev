@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security"	>
+
+<th:block th:fragment="adminSideFragment">
+	<div class="row">
+		<div class="col">
+			<div class="btn-group dropend">
+				<button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+					전자결재
+				</button>
+				<ul class="dropdown-menu">
+    				<li class="nav-item"><a class="nav-link" aria-current="page" href="#">미결함</a></li>
+    				<li class="nav-item"><a class="nav-link" aria-current="page" href="#">진행함</a></li>
+    				<li class="nav-item"><a class="nav-link" aria-current="page" href="#">완료함</a></li>
+    				<li class="nav-item"><a class="nav-link" aria-current="page" href="#">반려함</a></li>
+    				<li class="nav-item"><a class="nav-link" aria-current="page" href="#">임시함</a></li>
+    				<li class="nav-item"><a class="nav-link" aria-current="page" href="#">참조함</a></li>
+ 				</ul>
+ 			</div>		
+ 			<div>
+				<ul class="nav flex-column">					
+					<li class="nav-item"><a class="nav-link" href="#">자료실</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">근태관리</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">게시판</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">인사관리</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">조직도</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">자원관리</a></li>					
+				</ul>
+			</div>
+		</div>
+	</div>
+</th:block>
+
+</html>
