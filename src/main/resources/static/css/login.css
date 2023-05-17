@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 @font-face {
     font-family: 'Dovemayo_gothic';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.1/Dovemayo_gothic.woff2') format('woff2');
@@ -10,15 +9,16 @@
 
 
 
-/*모든 css는 admin_layout.html의 container class에 적용하겠다.*/
-.container{
+
+body{
 	font-family: 'Dovemayo_gothic';
 	font-size: 20px;
 	margin-top: 20px;
+	width: 100%;
 }
 
-.table-head{
-	color: white;
-	background-color: #0d6efd;
-	font-weight: bold;
-}
+
+.login_form{
+	background-color: #EEEEEE;
+	margin-bottom: 1rem;
+} 

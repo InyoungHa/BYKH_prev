@@ -1,10 +1,10 @@
-package com.bykh.groupware;
+package com.bykh.groupware.admin.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
-public class adminController {
+public class AdminController {
 	
 	//근태관리 출퇴근기록 페이지(메인)
 	@GetMapping("/attendanceManage")
